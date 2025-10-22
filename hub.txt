@@ -11,13 +11,15 @@ type bigWig
 shortLabel ATAC-seq
 longLabel ATAC-seq signal track
 visibility full
-color 0,255,0
+color 0,200,0
 bigDataUrl data/Conv_17.bw
+autoScale on
+maxHeightPixels 50:50:50
 
 track Peaks
 bigDataUrl data/Conv_17.bb
 shortLabel Peaks
 longLabel ATAC-seq peaks
 type bigBed 6
-color 0,0,255
-visibility full
+color 0,0,200
+visibility squish
