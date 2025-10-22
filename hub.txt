@@ -15,9 +15,9 @@ color 0,255,0
 bigDataUrl data/Conv_17.bw
 
 track Peaks
-bigDataUrl data/Conv_17.bdg
+bigDataUrl data/Conv_17.bb
 shortLabel Peaks
 longLabel ATAC-seq peaks
-type bedGraph
+type bigBed 6
 color 0,0,255
 visibility full
