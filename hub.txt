@@ -1,0 +1,23 @@
+hub ExampleVVulATACSeqHub
+shortLabel Example Fox ATAC
+longLabel Example ATAC-seq signal track from Vulpes vulpes
+useOneFile on
+email jlk337@cornell.edu
+
+genome GCF_048418805.1
+
+track ATACseq
+type bigWig
+shortLabel ATAC-seq
+longLabel ATAC-seq signal track
+visibility full
+color 0,255,0
+bigDataUrl data/Conv_17.bw
+
+track Peaks
+bigDataUrl data/Conv_17.bdg
+shortLabel Peaks
+longLabel ATAC-seq peaks
+type bedGraph
+color 0,0,255
+visibility full
